@@ -143,7 +143,7 @@
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
     $('#temp').html(p.temp);
-    $('#allergies').hmtl(p.allergies);
+    $('#allergies').html(p.allergies);
   };
 
 })(window);
