@@ -72,9 +72,10 @@
           p.hdl = getQuantityValueAndUnit(hdl[0]);
           p.ldl = getQuantityValueAndUnit(ldl[0]);
 
+          p.allergies = "";
           allergies.forEach(function(obj){
             if (typeof obj.code != 'undefined'){
-                p.allergies.concat(obj.code.text);
+                p.allergies += "<div>" + obj.code.text + "</div>";
             }
           })
           
